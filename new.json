@@ -1,0 +1,7 @@
+{ "name":"Евгений",
+  "surname":"Давыденко",
+  "patronymic":"Анатольевич",
+  "age":35,
+  "pets_count":0,
+  "salary": 80000
+}
