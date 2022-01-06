@@ -85,13 +85,40 @@ ESC:wq
 
 11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML === touch sklls.xml --> vim sklls.xml --> заполняем файл следующими данными:
 
+<courseprogram>
+        <lesson>Базовая теория</lesson>
+        <lesson>Клиент серверная архитектура</lesson>
+        <lesson>Методы запросов на сервер</lesson>
+        <lesson>Ответы сервера</lesson>
+        <lesson>Структуры запросов и ответов</lesson>
+        <lesson>JSON,XML их структура</lesson>
+        <lesson>Тестирование API</lesson>
+        <lesson>Снятие и чтение логов</lesson>
+        <lesson>Postman,Fidler</lesson>
+        <lesson>VPN</lesson>
+        <lesson>DevTools</lesson>
+        <lesson>Мобильное тестирование</lesson>
+        <lesson>Особенность iOS, Android, гайдлайны</lesson>
+        <lesson>Сборка iOS приложений на XCode</lesson>
+        <lesson>Сборка Android приложений на Android Studio</lesson>
+        <lesson>Перехват мобильного трафика через Charles</lesson>
+        <lesson>Настройка прокси на iOS и Android</lesson>
+        <lesson>Командная строка (terminal) Linux Ubuntu</lesson>
+        <lesson>Простой bash скриптринг , автоматизация рутинных задач на сервере</lesson>
+        <lesson>Доступ к удалённым серверам</lesson>
+        <lesson>Основы SQL</lesson>
+        <lesson>Git</lesson>
+        <lesson>Jmeter</lesson>
+        <lesson>Методология разработки Scrum</lesson>
+        <lesson>Python</lesson>
+</courseprogram>
 
+ESC:wq
 
-
-12. Сделать коммит в одну строку.
-13. Отправить сразу 2 файла на внешний репозиторий.
-14. На веб интерфейсе создать файл bug_report.xml.
-15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
-17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-18. Синхронизировать внешний и локальный репозиторий XML
+12. Сделать коммит в одну строку === git add . --> git commit -m "комментарий"
+13. Отправить сразу 2 файла на внешний репозиторий. === git push
+14. На веб интерфейсе создать файл bug_report.xml.=== заходим в GITHUB в репозиторий XML -->  Add file --> Create new file --> даем файлу имя bug_report.xml
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === Commit new file
+16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML. === заходим в bug_report.xml --> Редактировать(карандашик)--> вносим изменения
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === кнопка Commit changes
+18. Синхронизировать внешний и локальный репозиторий XML === заходим в Gitbash в папку XML --> git fetch --> git pull
