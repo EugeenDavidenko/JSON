@@ -68,8 +68,22 @@ ESC:wq
 
 8. Отправить изменения на внешний репозиторий. === git commit -am "заполнил new.xml" --> git push
 9. Создать файл preferences.xml === touch preferences.xml
-10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
-11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML. === vim preferences.xml --> заполняем следующими данными:
+
+<favoritefilm>Тихое место</favoritefilm>
+<favoriteserial>Game of thrones</favoriteserial>
+<favoritefood>Жареная картошка</favoritefood>
+<favoriteseason>Лето</favoriteseason>
+<favoritefilm>Тихое место</favoritefilm>
+<wishcountry>Brasil</wishcountry>
+
+ESC:wq
+
+11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML === touch sklls.xml --> vim sklls.xml --> заполняем файл следующими данными:
+
+
+
+
 12. Сделать коммит в одну строку.
 13. Отправить сразу 2 файла на внешний репозиторий.
 14. На веб интерфейсе создать файл bug_report.xml.
